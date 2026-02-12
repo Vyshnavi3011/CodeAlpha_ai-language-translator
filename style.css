@@ -1,0 +1,98 @@
+/* 🌈 Gradient Background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* 💎 Glass Card Effect */
+.container {
+    width: 420px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+/* ✨ Heading */
+.container h2 {
+    margin-bottom: 15px;
+}
+
+/* 📝 Textareas */
+textarea {
+    width: 100%;
+    height: 90px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+}
+
+/* 🌐 Dropdowns */
+.dropdowns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 48%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+/* 🚀 Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* 🎯 Translate Button */
+#translateBtn {
+    background: #ff7eb3;
+    color: white;
+}
+
+#translateBtn:hover {
+    background: #ff4e91;
+}
+
+/* 📋 Copy Button */
+button:nth-of-type(2) {
+    background: #00c9a7;
+    color: white;
+}
+
+button:nth-of-type(2):hover {
+    background: #009e85;
+}
+
+/* 🔊 Speak Button */
+button:nth-of-type(3) {
+    background: #ffc75f;
+    color: white;
+}
+
+button:nth-of-type(3):hover {
+    background: #ffb347;
+}
